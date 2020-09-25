@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Demo project
+//  TableList
 //
-//  Created by student on 9/23/20.
+//  Created by student on 9/24/20.
 //  Copyright © 2020 student. All rights reserved.
 //
 
