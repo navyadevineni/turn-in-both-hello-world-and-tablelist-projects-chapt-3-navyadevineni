@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     var meaning:String?
     
+    // Function for the button
     @IBAction func showMessage(sender: UIButton) {
         // Declaring the emojis dictionary
         var emojis = ["👾":"Alien Monster",
@@ -32,6 +33,7 @@ class ViewController: UIViewController {
             meaning = emojis[wordToLookup];
         }
         
+        // Alert Controller code
         let alertController = UIAlertController(title: "Welcome to My First App", message: meaning, preferredStyle: UIAlertController.Style.alert)
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         present(alertController, animated: true, completion: nil)
