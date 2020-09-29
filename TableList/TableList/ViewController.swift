@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    // Declared a variable "meaning" to be passed in the function
     var meaning:String?
     
     // Function for the button
