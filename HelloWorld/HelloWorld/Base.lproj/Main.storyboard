@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lp8-AO-Qx6">
-                                <rect key="frame" x="149.5" y="428" width="115" height="40"/>
+                                <rect key="frame" x="60" y="746" width="115" height="40"/>
                                 <color key="backgroundColor" red="1" green="0.2714245591808313" blue="0.29690475019752316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -30,8 +30,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Lp8-AO-Qx6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DfR-lS-2L1"/>
-                            <constraint firstItem="Lp8-AO-Qx6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PGY-6o-2f5"/>
+                            <constraint firstItem="Lp8-AO-Qx6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-89.5" id="DfR-lS-2L1"/>
+                            <constraint firstItem="Lp8-AO-Qx6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="318" id="PGY-6o-2f5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
